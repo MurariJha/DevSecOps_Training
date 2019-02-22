@@ -11,7 +11,7 @@ before_install:
 - docker pull gauntlt/gauntlt
 - docker ps -a
 - chmod +x ./script/ip-config.sh
-- ./scripts/ip-config.sh
+- ./script/ip-config.sh
 
 script:
   - cat ./config/cucumber.yml
